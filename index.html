@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eswar">
+    <meta name="description" content="Tic Tac Toe game using html, css and js.">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>tic tac toe</h1>
+
+    <div class="turn">Turn: <span id="turn">X</span></div>
+    <div class="win-msg" id="winMsg"></div>
+    <div class="draw-msg" id="drawMsg"></div>
+
+    <div class="board" id="board"></div>
+
+    <div class="panel">
+        <button id="newRound">New Round</button>
+        <button id="resetScores">Reset Score</button>
+    </div>
+
+    <div class="scores">
+        X Wins: <span id="xScore">0</span> &nbsp;&nbsp; | &nbsp;&nbsp; O Wins: <span id="oScore">0</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
